@@ -1,0 +1,36 @@
+header.header {
+	grid-area: 1/1/2/4;
+	background: rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+
+	img.logo {
+		border-radius: 50%;
+	}
+
+	nav.navigation {
+		height: 100%;
+		display: flex;
+		gap: 1rem;
+
+		a.navigationLink,
+		a.navigationLink:visited,
+		a.navigationLink:active {
+			display: inline-flex;
+			align-items: center;
+			height: 100%;
+			text-decoration: none;
+			color: rgba(0, 0, 0, 0.75);
+			border-bottom: 1px solid transparent;
+			transition: all 0.3s ease-in-out;
+		}
+
+		a.navigationLink:hover {
+			color: rgba(0, 0, 0, 0.5);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+

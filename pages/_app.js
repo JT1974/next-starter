@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import '../styles/css/golbals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function InteractiveComments({ Component, pageProps }) {
+	return <Component {...pageProps} />
 }
 
-export default MyApp
+export default InteractiveComments
+

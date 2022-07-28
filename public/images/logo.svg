@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .logo {
+        font-size: 150px;
+        font-family: Impact;
+      }
+    </style>
+  </defs>
+  <g id="logoBoard" data-name="logoBoard">
+    <text id="logo" class="logo" x="57.862" y="259.667">LOGO</text>
+  </g>
+</svg>
